@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Mister Meeseek</title>
+<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="mainStyles.css">
+<script src="mainScript.js"></script>
+</head>
+
+<nav class="navbar navbar-default navbar-fixed-top fullNav">
+	<div class="container-fluid">
+	    <ul class="nav navbar-nav">
+			<li id="navBackToTop" class="mainBtn"><a href="javascript:void(0)">Back to Top</a></li>
+			<li id="navPainClinics" class="mainBtn"><a href="javascript:void(0)">Pain Clinics</a></li>
+			<li id="navFindClinics" class="mainBtn"><a href="javascript:void(0)">Find Clinics</a></li> 
+			<li id="navSkillsToCope" class="mainBtn"><a href="javascript:void(0)">Skills to Cope</a></li> 
+			<li id="navOtherTools" class="mainBtn"><a href="javascript:void(0)">Other Tools</a></li> 
+			<li id="navContactUs" class="mainBtn"><a href="javascript:void(0)">Contact Us</a></li> 
+			<li id="mobileNavUpBtn" class="hideMe"><a href="javascript:void(0)"><i class="fa fa-angle-up" aria-hidden="true"></i></a></li>
+			<li id="mobileNavDownBtn" class="showMe"><a href="javascript:void(0)"><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+		</ul>
+	</div>
+</nav>
+
+
+
+
+<body>
+	<div class="mainContainer container text-center">
+		<div class="row row1 jumbotron lastElement" id="rowWhoControl">
+			<div class="textContent">
+				<h1>Who's In Control?</h1>
+				<h2>You or Chronic Pain?</h2>
+				<p>Sometimes nothing seems to help - family doctors, pediatric gastroenterologists, pediatric neurologists. <br> And worse yet some act as if chronic pain is not real or it is in "my head"!</p>
+				<!--<img id="panel_1" src="images/panel_1.png">-->
+				<img id="panel_1" src="/images/mainChrUnhappy-01.png">
+			</div>
+		</div>
+		
+		<div class="row row2 jumbotron lastElement" id="rowWeKnow">
+			<div class="textContent">
+				<h2>But We Should All Know...</h2>
+				<h1>Chronic Pain Is Real Pain</h1>
+				<h2>We Believe You.</h2>
+				<!--<img id="panel_2" src="images/panel_2.png">-->
+				<img id="panel_2" src="/images/wePeople_2-texture-01.png">
+			</div>
+		</div>
+		
+		<div class="row row3 jumbotron shortBottom" id="rowPainClinics">
+			<div class="textContent">
+				<h2>If You Don't Know Already, Let's Learn About</h2>
+				<h1>Pediatric Chronic Pain Clinics</h1>
+				<h2>The "Pain Team" Prepared</h2>
+				<p>Your pediatric chronic pain clinic may have various health care professionals to help you gain control over your pain. A typical team may contain professionals such as these:</p>
+			</div>
+			
+		</div>
+		
+		<div class= "row row4 jumbotron midSection">
+			<div class="colContainer sm-space">
+				
+				<div class="iconNavContainer">
+					<ul class="iconNav">
+					
+					
+						<li><img class="selectedIcon painTeamBtns" id="btnNursePractitioner" src="/images/painTeamIcons-01.png"></li>
+						<li><img class="unselectedIcons painTeamBtns" id="btnPhysioTherapist" src="/images/painTeamIcons-02.png"></li>
+						<li><img class="unselectedIcons painTeamBtns" id="btnPsychologist" src="/images/painTeamIcons-03.png"></li>
+					
+					
+					
+						<!--<li><i class="fa fa-user-circle fa-5x selectedIcon painTeamBtns" id="btnNursePractitioner"></i></li>-->
+						<!--<li><i class="fa fa-user-circle fa-5x unselectedIcons painTeamBtns" id="btnPhysioTherapist"></i></li>-->
+						<!--<li><i class="fa fa-user-circle fa-5x unselectedIcons painTeamBtns" id="btnPsychologist"></i></li>-->
+					</ul>
+					
+					<div class="iconNavSection painTeamSections" id="sectionNursePractitioner">
+						<div class="col-sm-5">
+					     	<!--<img src="http://via.placeholder.com/350x300">-->
+					     	<img id="chr_nurse" class="chrSet" src="/images/painTeamPeople-01.png">
+					    </div>
+					    
+						<div class="col-sm-7 padTop18 textCenterLastJustify">
+							<h3>Nurse-Practitioner</h3>
+					     	<p>Nurse practitioners provide direct care, focusing on health promotion and the treatment and management of health conditions.</p>
+					     	<p>They can diagnosis, order and interpret diagnostic tests. They can also prescribe medications and perform certain procedures.</p>
+					    </div>
+				    </div>
+				    
+				    <div class="iconNavSection hideMe painTeamSections" id="sectionPhysiotherapist">
+						<div class="col-sm-5">
+					     	<!--<img src="http://via.placeholder.com/200x300">-->
+					     	<img id="chr_physio" class="chrSet" src="/images/painTeamPeople-02.png">
+					    </div>
+					    
+						<div class="col-sm-7 padTop18 textCenterLastJustify">
+							<h3>Physiotherapist</h3>
+					     	<p>Physiotherapists are experts on how the body moves and what stops it from moving.</p>
+					     	<p>As movement specialists, physiotherapists help you restore, maximize, and maintain movement.</p>
+					    </div>
+				    </div>
+				    
+				    <div class="iconNavSection hideMe painTeamSections" id="sectionPsychologist">
+						<div class="col-sm-5">
+					     	<!--<img src="http://via.placeholder.com/200x300">-->
+					     	<img id="chr_psycho" class="chrSet" src="/images/painTeamPeople-03.png">
+					    </div>
+					    
+						<div class="col-sm-7 padTop18 textCenterLastJustify">
+							<h3>Psychologist</h3>
+					     	<p>A psychologist studies how we think, feel, and behave, and then uses this knowledge to help people understand, explain, and change their behavior.</p>
+					    </div>
+				    </div>
+			    </div>
+				
+				<!--<div class="col-sm-4">-->
+			 <!--     <i class="fa fa-user-circle fa-5x"></i><h3>Nurse-Practitioner</h3>-->
+			 <!--     <p>Nurse practitioners provide direct care, focusing on health promotion and the treatment and management of health conditions.</p>-->
+			 <!--     <p>They have an expanded scope of practice and can diagnose, order, and interpret diagnostic tests. They can also prescribe medications and perform certain procedures.</p>-->
+			 <!--   </div>-->
+			    
+			 <!--   <div class="col-sm-4">-->
+			 <!--     <i class="fa fa-user-circle fa-5x"></i><h3>Physiotherapist</h3>-->
+			 <!--     <p>Physiotherapists are experts on how the body moves and what stops it from moving.</p>-->
+			 <!--     <p>As movement specialists, physiotherapists will use a hands-on approach to help you restore, maximize, and maintain movement for the rest of your life.</p>-->
+			 <!--   </div>-->
+			    
+			 <!--   <div class="col-sm-4">-->
+			 <!--     <i class="fa fa-user-circle fa-5x"></i><h3>Psychologist</h3>-->
+			 <!--     <p>A psychologist studies, from a scientific viewpoint, how we think, feel, and behave, and applies this knowledge to help people understand, explain, and change their behavior.</p>-->
+			 <!--   </div>-->
+			    
+		    </div>
+		</div>
+		
+		<div class="row row5 jumbotron shortTop lastElement">
+			<h2>Chronic Pain 101 - Welcome to Pain Class</h2>
+			<p>Pain clinics may offer Pain Class for patients and parents.<br> Pain Class offers opportunities to create social connections and strategize pain management through cognitive behavioral therapy, teen support groups, and parent sessions.</p>
+			<h2  class="md-space">"Chronic pain is a disease. Our job is to help you manage it."</h2>
+			<p>The Pain Team will strive to help you live a better life than you have since the pain started.<br> Whatever life goals you may have - whether it be sports, studying, or working, the team will help you meet those goals.</p>
+		</div>
+		
+		
+		
+		
+		
+		<div class="row row7 jumbotron lastElement" id="rowFindClinics">
+			<div class="textContent">
+				<h1>Find a Clinic Near You</h1>
+				<h2>If you have trouble, contact your health care provider.</h2>
+				<!--<p>Or, if you still have trouble, email us at: itl@ualberta.ca</p>-->
+				
+				<form>
+					<div class="form-group">
+						<label for="sel1">Province/Territory:</label>
+							<select class="form-control" id="province">
+							<option>Alberta</option>
+							<option>British Columbia</option>
+							<option>Manitoba</option>
+							<option>New Brunswick</option>
+							<option>Newfoundland and Labrador</option>
+							<option>Northwest Territories</option>
+							<option>Nova Scotia</option>
+							<option>Nunavut</option>
+							<option>Ontario</option>
+							<option>Prince Edward Island</option>
+							<option>Quebec</option>
+							<option>Saskatchewan</option>
+							<option>Yukon</option>
+						</select>
+					</div>
+				</form>
+			</div>
+			
+			<div class="colContainer sm-space">
+				<h2>Clinics in [Province]</h2>
+				<div class="col-sm-6">
+			      <i class="fa fa-map-marker fa-5x"></i><h3>[Clinic Name 1]</h3>
+			      <p>[Address of Clinic Name 1].</p>
+			    </div>
+
+			    <div class="col-sm-6">
+			      <i class="fa fa-map-marker fa-5x"></i><h3>[Clinic Name 2]</h3>
+			      <p>[Address of Clinic Name 2].</p>
+			    </div>
+		    </div>
+		    
+		    <div class="colContainer md-space">
+				<div class="col-sm-6">
+			      <i class="fa fa-map-marker fa-5x"></i><h3>[Clinic Name 1]</h3>
+			      <p>[Address of Clinic Name 1].</p>
+			    </div>
+
+			    <div class="col-sm-6">
+			      <i class="fa fa-map-marker fa-5x"></i><h3>[Clinic Name 2]</h3>
+			      <p>[Address of Clinic Name 2].</p>
+			    </div>
+		    </div>
+		    
+		    <div class="colContainer md-space">
+				<div class="col-sm-6">
+			      <i class="fa fa-map-marker fa-5x"></i><h3>[Clinic Name 1]</h3>
+			      <p>[Address of Clinic Name 1].</p>
+			    </div>
+
+			    <div class="col-sm-6">
+			      <i class="fa fa-map-marker fa-5x"></i><h3>[Clinic Name 2]</h3>
+			      <p>[Address of Clinic Name 2].</p>
+			    </div>
+		    </div>
+		</div>
+		
+		
+		
+		<div class="row row8 jumbotron shortBottom" id="rowSkills">
+			<div class="textContent">
+				<h2>Let's Strategize About</h2>
+				<h1>Our Skills to Cope</h1>
+				<p>Too little or too much physical activity, sleep problems, stress, anxiety, and emotion can all affect the pain signals going to the brain. Here are some ideas to come up with strategies in fighting pain signals.</p>
+			</div>
+			
+		</div>
+		
+		<div class= "row row9 jumbotron midSection">
+			<div class="colContainer sm-space">
+				
+				<div class="iconNavContainer">
+					<ul class="iconNav">
+						
+						<li><img class="selectedIcon strategiesBtns" id="btnRelaxation" src="/images/skillsToCopeIcons-01.png"></li>
+						<li><img class="unselectedIcons strategiesBtns" id="btnExercise" src="/images/skillsToCopeIcons-02.png"></li>
+						<li><img class="unselectedIcons strategiesBtns" id="btnHydration" src="/images/skillsToCopeIcons-03.png"></li>
+						
+						<!--<li><i class="fa fa-music fa-5x selectedIcon strategiesBtns" id="btnRelaxation"></i></li>-->
+						<!--<li><i class="fa fa-bicycle fa-5x unselectedIcons strategiesBtns" id="btnExercise"></i></li>-->
+						<!--<li><i class="fa fa-tint fa-5x unselectedIcons strategiesBtns" id="btnHydration"></i></li>-->
+					</ul>
+					
+					<div class="iconNavSection strategiesSections" id="sectionRelaxation">
+						<div class="col-sm-5">
+					     	<img src="http://via.placeholder.com/350x300">
+					    </div>
+					    
+						<div class="col-sm-7 padTop18 textCenterLastJustify">
+							<h3>Relaxation / Chilling Out</h3>
+							<p>We all need to chil-lax some times, and it is good to take some break when the pain is getting out of hand (isSampleText).</p>
+							<p>Anything from listening to music to stretching out on the couch to distract the pain can be helpful (isSampleText).</p>
+					    </div>
+				    </div>
+				    
+				    <div class="iconNavSection hideMe strategiesSections" id="sectionExercise">
+						<div class="col-sm-5">
+					     	<img src="http://via.placeholder.com/350x300">
+					    </div>
+					    
+						<div class="col-sm-7 padTop18 textCenterLastJustify">
+							<h3>Gentle Exercise</h3>
+							<p>Gentle exercises can motivate your body and mind to be a bit more active and prevent being overly fatigued (isSampleText).</p>
+							<p>Taking a jog, doing yoga, playing badminton, or even mindful breathing exercises can all help (isSampleText).</p>
+					    </div>
+				    </div>
+				    
+				    <div class="iconNavSection hideMe strategiesSections" id="sectionHydration">
+						<div class="col-sm-5">
+					     	<img src="http://via.placeholder.com/350x300">
+					    </div>
+					    
+						<div class="col-sm-7 padTop18 textCenterLastJustify">
+							<h3>Plenty of Hydration</h3>
+							<p>Your body needs plenty of water to function properly. Drinking once in a while to prevent becoming thirsty is often a good idea (isSampleText).</p>
+							<p>Water is often the best drink for staying hydrated as opposed to drinking pop or other soft drinks (isSampleText).</p>
+					    </div>
+				    </div>
+				    
+				    
+			    </div>
+		    </div>
+		</div>
+		
+		
+		<div class="row10 row jumbotron shortTop lastElement">
+			<h2>"No Pain No Gain? Nah - Know Pain Know Gain!"</h2>
+			<p>Whatever goal that needs to be met - rockclimbing a mountain, earning a certificate, performing at a concert, know your limits.</p>
+			<p>Stopping something because of painful symptom is not a sign of weakness.</p>
+		</div>
+		
+		
+		
+		<div class="row row11 jumbotron lastElement" id="rowOtherTools">
+			<div class="textContent">
+				<h1>Other Useful Tools and Exercises</h1>
+			</div>
+			<div class="colContainer sm-space">
+				<div class="col-sm-4">
+			      <i class="fa fa-users fa-5x"></i><h3>Exercises for parents and patients</h3><h4>Click Here</h4>
+			      <p>Lorem ipsum.</p>
+			    </div>
+			    
+			    <div class="col-sm-4">
+			      <i class="fa fa-external-link fa-5x"></i><h3>Canadian Pain Coalition</h3><h4>Click Here</h4>
+			      <p>Lorem Ipsum.</p>
+			    </div>
+			    
+			    <div class="col-sm-4">
+			      <i class="fa fa-external-link fa-5x"></i><h3>American Pain Society</h3><h4>Click Here</h4>
+			      <p>Lorem Ipsum.</p>
+			    </div>
+			    
+			  <!--  <div class="col-sm-12 sm-space">-->
+			  <!--  	<h2>"No Pain No Gain? Nah - Know Pain Know Gain!"</h2>-->
+					<!--<p>Whatever goal that needs to be met - rockclimbing a mountain, earning a certificate, performing at a concert, know your limits.</p>-->
+					<!--<p>Stopping something because of painful symptom is not a sign of weakness. Not overextending your body and controlling your pain is one of real signs of strength and fortitude.</p>-->
+			  <!--  </div>-->
+			</div>
+		</div>
+		
+	</div>
+</body>
+
+<footer class="text-center md-space" id="rowContacts">
+	<i class="fa fa-question-circle-o fa-5x"></i><h3>Questions? Comments?</h3>
+	<h1>Contact Us</h1>
+	<h3>itl@ualberta.ca</h3>
+	<p>Devloped by TREKK | trekk.ca</p>
+</footer>
+</html>
