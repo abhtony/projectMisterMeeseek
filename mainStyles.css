@@ -28,34 +28,34 @@ h1, h2, h3, h4, h5, h6 {
 
 .row1 {
     /*background-image: url(/images/paper_fibers.png);*/
-    background-image: url(/images/background/lighter/lightpaperfibers_lighter.png);
+    background-image: url(images/background/lighter/lightpaperfibers_lighter.png);
     /*background-image: url(/images/handmadepaper_@2X.png);*/
 }
 
 
 .row2 {
-    background-image: url(/images/background/lighter/extra_clean_paper_lighter.png);
+    background-image: url(images/background/lighter/extra_clean_paper_lighter.png);
 }
 
 .row3, .row4, .row5 {
-    background-image: url(/images/background/lighter/ricepaper_v3_lighter.png);
+    background-image: url(images/background/lighter/ricepaper_v3_lighter.png);
 }
 
 .row7 {
-    background-image: url(/images/background/lighter/exclusive_paper_lighter.png);
+    background-image: url(images/background/lighter/exclusive_paper_lighter.png);
 }
 
 .row8, .row9, .row10 {
-    background-image: url(/images/background/lighter/lightpaperfibers_lighter.png);
+    background-image: url(images/background/lighter/lightpaperfibers_lighter.png);
 }
 
 .row11 {
-    background-image: url(/images/background/lighter/extra_clean_paper_lighter.png);
+    background-image: url(images/background/lighter/extra_clean_paper_lighter.png);
 }
 
 
 footer {
-    background-image: url(/images/background/lighter/ricepaper_v3_lighter.png);
+    background-image: url(images/background/lighter/ricepaper_v3_lighter.png);
     padding-bottom: 85px;
 }
 
